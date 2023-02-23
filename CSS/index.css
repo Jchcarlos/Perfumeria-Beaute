@@ -582,89 +582,9 @@ footer{
         width: 30%;
     }
 }
-/*Daniel*/
-/* Inisiar sesion*/
-.inicio{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #fff;
-    
-}
-.form-sesion{
-    width: 500px;
-    height: 100%;
-    border-radius: 10px;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border: solid 1px #2980b9;
-    background-color: #000;
-    margin: 10px;
-}
-.form-sesion img{
-    width: 200px;
-    display: block;
-    margin: 20px auto;
-}
-.texto{
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #fff;
-    margin-bottom: 25px;
-}
+/*Formulario de inicio de sesion*/
 
-.form-sesion input{
-    display: block;
-    margin: auto;
-    height: 65px;
-    width: 75%;
-    padding-left: 10px;
-    color: #fff;
-    border: 1px solid #fff;
-    border-radius: 2px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: transparent;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    font-size: 1rem;
-    outline: none;
-    margin-top: 20px;
-}
 
-::placeholder{
-    font-size: 1rem;
-    color: rgba(255, 255, 255, .596);
-}
-
-.form-sesion input:hover{
-    transition: .5s;
-    border: 1px solid #2980b9;
-    color: #2498db;
-}
-
-.form-sesion button{
-    display: block;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 78%;
-    background: rgb(255, 255, 255);
-    color: #000000;
-    border-radius: 20px;
-    cursor: pointer;
-    outline: none;
-    transition: all .5s ease;
-    text-decoration: none;
-}
-.form-sesion button:hover{
-    color: #d5dbdd;
-    border: 2px solid #3498db;
-    background: linear-gradient(#34495e, #2c3e50);
-    text-decoration: none;
-}
 
 /* Fragancias de hombre */
 .fondo{
@@ -892,4 +812,74 @@ footer{
     width: 390px;
     height: 400px;
     padding: 10%;
+}
+/*ESTILOS DE FORMULARIO DE CONTACTO*/
+
+.container-formulario{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+    color: #000;
+}
+.container-formulario h2{
+    margin-bottom: 15px;
+    font-size: 35px
+    color: #000;
+}
+.container-formulario p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #000;
+}
+.container-formulario a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+.container-formulario .campo::placeholder{
+    color: black;
+}
+.container-formulario a i{
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+}
+.container-formulario form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+    color: #000;
+}
+.container-formulario form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+    color: #000;
+}
+.container-formulario .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: #929a96;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.container-formulario .btn-enviar:hover{
+    background: #181717;
 }
