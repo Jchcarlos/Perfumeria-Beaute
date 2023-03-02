@@ -46,25 +46,25 @@
             </nav>
         </header><br><br><br><br>
         <main><br><br><br><br><br>
-            <form action="post" class="formulario">
+            <div class="formulario">
                 <h1>Iniciar sesión</h1>
                 <div class="registrarse">
-                    ¿Aun no tienes una cuenta? <a href="#">Entra aqui</a>
+                    ¿Aun no tienes una cuenta? <a href="#">Ingresa aquí</a>
+                </div>  
+            <form action="post">
+                <div class="username">
+                    <input type="email" placeholder="Usuario o Correo electronico" required>
                 </div>
                 <div class="username">
-                    <input type="text" required>
-                    <label>Nombre de usuario</label>
+                    <input type="password" placeholder="Contraseña" required>
                 </div>
-                <div class="username">
-                    <input type="password" required>
-                    <label>Contraseña</label>
-                </div>
-                <div class="recordar">¿Olvido su contraseña?</div>
+                <div class="recordar">¿Olvidaste tu contraseña?</div>
                 <input type="submit" value="Iniciar">
-                <div class="registrarse">
+                <div class="registrarse">   
                     Acceder como <a href="#">Administrador</a>
                 </div>  
             </form>
+            </div>
         </main><br><br>
         <footer id="contacto">
             <div class="contenedor footer-content">
