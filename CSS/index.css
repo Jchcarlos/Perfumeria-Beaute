@@ -1153,6 +1153,10 @@ input[type="submit"]:hover{
 #ad{
     margin: 0px 0px 15px 0px;
 }
+.log{
+    width: 115px;
+
+}
 /*#centra{
     text-align: center;
 }*/
