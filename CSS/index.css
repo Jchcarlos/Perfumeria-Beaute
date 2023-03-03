@@ -1149,3 +1149,10 @@ input[type="submit"]:hover{
       flex-direction: row;
     }
   }   
+  /*Boton de agregar*/
+#ad{
+    margin: 0px 0px 15px 0px;
+}
+/*#centra{
+    text-align: center;
+}*/
