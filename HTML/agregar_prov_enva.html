@@ -11,9 +11,8 @@
     <script src="https://kit.fontawesome.com/a45e4463fd.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Explora&display=swap" rel="stylesheet">
     <link rel="icon" href="../IMG/logo.png">
-    <link rel="stylesheet" href="">
     <link rel="stylesheet" href="../CSS/index.css">
-    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <title>Beaute Oficial.</title>
 </head>
 <body>
@@ -37,25 +36,45 @@
         </div>
     </div>
     <main> <br><br><br>
-    <form action="admin_productos.html" class="form-registro"><br><br>
+    <form action="admin_proveedor_env.html" class="form-registro">
         <div class="wrapper">
             <div class="title">
-              Eliminar Producto
+              Agregar proveedor de envase
             </div>
             <div class="form">
                <div class="inputfield">
-                  <label>ID PRODUCTO</label>
-                  <input type="number" class="input" name="ID">
+                  <label>ID</label>
+                  <input type="text" class="input" name="ID">
                </div>
-               ¿Deseas eliminar este producto?
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal"><span class="fa-solid fa-xmark"></span>
-            Cancelar</button>
-            <a href="admin_productos.html" class="btn btn-danger btn-sm"><span class="fa fa-trash"></span> Eliminar</a>
+                <div class="inputfield">
+                  <label>Proveedor</label>
+                  <input type="text" class="input" name="proveedor">
+               </div>
+            <div class="inputfield">
+                    <label>Precio</label>
+                    <input type="number" class="input" name="proveedor">
             </div>
+            <div>  
+                <div class="inputfield">
+                <label>Cantidad</label>
+                <input type="number" class="input" name="proveedor">
+            </div>  
+            <div class="inputfield">
+                <label>Telefono</label>
+                <input type="tel" class="input" name="proveedor">
+            </div>
+            <div class="inputfield">
+                <label>Correo electronico</label>
+                <input type="email" class="input" name="proveedor">
+            </div>
+            <div class="modal-footer">
+                    <button type="button" class="btn btn-default"><span class="fa-solid fa-xmark"></span>
+                Cancelar</button>
+                <button type="submit" class="btn btn-primary"><span class="fa-solid fa-floppy-disk"></span>
+                Guardar</button>
             </div>
         </div>	
-    </form> <br><br>
+    </form>
     </main><br><br><br><br>
     <footer id="contacto">
         <div class="contenedor footer-content">
@@ -76,7 +95,5 @@
     <script src="../JS/barra.js"></script>
     <script src="../JS/lightbox.js"></script>
     <script src="../JS/menu.js"></script>
-    <script src="../../assets/js/vendor/popper.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
